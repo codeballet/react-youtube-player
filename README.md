@@ -16,6 +16,10 @@ Once you have got the application Access Key, and you have created the above des
 2. Run `npm install` to install the node modules.
 3. Run `npm run start` to run the app in developer mode.
 
+## The `hooks` vs the `master` branch
+The master branch is built using traditional class-based and functional components.
+The hooks branch is a refactoring using only functional components with custom hooks.
+
 ## Building for production
 In order to create a production build, run `npm run build`.
 That will generate a production optimized app in the `Build` directory.
